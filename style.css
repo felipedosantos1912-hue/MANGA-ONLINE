@@ -54,7 +54,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-
+    width: 100%;
 }
 
 .page-wrapper img{
@@ -65,27 +65,27 @@ body{
 
 .controls{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
     max-width: 400px;
     gap: 15px;
-
 }
 
 .btn{
-background-color: firebrick;
-color: #121212;
-border: none;
-padding: 10px 20px;
-font-size: 1rem;
-font-weight: bold;
-border-radius: 5px;
-cursor: pointer;
-transition: background 0.2s ease;
+    background-color: firebrick;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease; transform: 0.1s ease;
 }
 
-.btn.hover{
-    background-color: firebrick;
+.btn:hover{
+    background-color: rgb(178, 34, 58);
 }
 
 .btn:active{
@@ -101,7 +101,6 @@ transition: background 0.2s ease;
 .page-counter{
     font-size: 1rem;
     font-weight: 500;
-
 }
 
  
