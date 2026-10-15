@@ -81,7 +81,7 @@ body{
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.2s ease; transform: 0.1s ease;
+    transition, background-color 0.2s ease; transform: 0.1s ease;
 }
 
 .btn:hover{
@@ -102,6 +102,60 @@ body{
     font-size: 1rem;
     font-weight: 500;
 }
+
+/*PARA:SMARTPHONE*/
+
+@media (max-width:760px)
+  body{
+padding: 10px;
+  }
+
+  .h1{
+    font-size: 1.3rem;
+  }
+
+  .controls{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+
+  .btn{
+flex: 1;
+min-width: 120px;
+padding: 12px;
+font-size: 0.95rem;
+  }
+
+
+  .page-counter{
+    width: 100%;
+    text-align: center;
+    order: -1;
+  }
+
+
+  /*CELULARES PEQUENOS*/
+
+  @media (max-width:400px) {
+    .h1{
+    
+    }
+  }
+
+
+  .btn{
+    font-size: 0.85rem;
+    padding: 10px;
+  }
+
+
+.page-counter{
+    font-size: 0.85rem;
+}
+    
+
 
  
 
